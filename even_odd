@@ -1,0 +1,14 @@
+def even_or_odd(arg):
+    lst_even = []
+    lst_odd = []
+    for i in arg:
+        if i % 2 == 0:
+            lst_even.append(i)
+        else:
+            lst_odd.append(i)
+    print('list of the even numbers ', lst_even)
+    print('list of the odd numbers ', lst_odd)
+
+even_or_odd([1,4,5,8,9,7,10,15,20])
+
+
