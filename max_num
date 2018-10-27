@@ -1,0 +1,15 @@
+def max_func(a, b):
+    if a < b:
+        return b
+    elif a > b:
+        return a
+    else:
+        return 'a = b'
+
+a = int(input('Please enter first number: '))
+b = int(input('Please enter second number: '))
+
+print('max number is', max_func(a, b))
+
+
+
